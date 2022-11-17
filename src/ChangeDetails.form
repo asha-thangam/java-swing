@@ -76,16 +76,16 @@
               <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-              <Component id="TxtArea" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="TxtArea" min="-2" pref="105" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="JCState" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" linkSize="1" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="JCDistrict" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" linkSize="1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -252,11 +252,17 @@
     <Component class="javax.swing.JComboBox" name="JCState">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
+          <StringArray count="10">
+            <StringItem index="0" value="Andhra Pradesh"/>
+            <StringItem index="1" value="Arunachal Pradesh"/>
+            <StringItem index="2" value="Assam"/>
+            <StringItem index="3" value="Bihar"/>
+            <StringItem index="4" value="Chhattisgarh"/>
+            <StringItem index="5" value="Goa"/>
+            <StringItem index="6" value="Gujarat"/>
+            <StringItem index="7" value="Haryana"/>
+            <StringItem index="8" value="Himachal Pradesh"/>
+            <StringItem index="9" value="TamilNadu"/>
           </StringArray>
         </Property>
         <Property name="selectedIndex" type="int" value="-1"/>
