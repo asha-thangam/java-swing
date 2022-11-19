@@ -86,7 +86,7 @@ public class FrontPage extends JFrame {
                 FrontPage fp=new FrontPage();
                 fp.getContentPane().setBackground(Color.PINK);
                 fp.setResizable(false);
-                fp.setTitle("Indian Election Commison");
+                fp.setTitle("Indian Election Commision");
                 ImageIcon img = new ImageIcon("D:\\elcCom.PNG");
                 fp.setIconImage(img.getImage()); 
                 fp.setVisible(true);
